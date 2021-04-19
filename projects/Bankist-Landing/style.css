@@ -258,10 +258,9 @@ h4 {
   margin-bottom: 2rem;
 }
 
-.features__icon svg {
-  height: 2.5rem;
-  width: 2.5rem;
-  fill: var(--color-primary);
+.features__icon i {
+  font-size: 22px;
+  color: var(--color-primary) !important;
 }
 
 .features__header {
@@ -344,9 +343,8 @@ h4 {
   border-radius: 50%;
 }
 
-.operations__icon svg {
-  height: 2.75rem;
-  width: 2.75rem;
+.operations__icon i {
+  font-size: 26px;
 }
 
 .operations__content p {
@@ -362,14 +360,14 @@ h4 {
 .operations__icon--3 {
   background-color: var(--color-tertiary-opacity);
 }
-.operations__icon--1 svg {
-  fill: var(--color-secondary-darker);
+.operations__icon--1 i {
+  color: var(--color-secondary-darker);
 }
-.operations__icon--2 svg {
-  fill: var(--color-primary);
+.operations__icon--2 i {
+  color: var(--color-primary);
 }
-.operations__icon--3 svg {
-  fill: var(--color-tertiary);
+.operations__icon--3 i {
+  color: #fd424b;
 }
 
 /* SLIDER */
