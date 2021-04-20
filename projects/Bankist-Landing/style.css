@@ -922,6 +922,24 @@ h4 {
   }
 }
 
+@media screen and (min-width: 450px) {
+  #section--1 {
+    padding-bottom: 380px;
+  }
+}
+
+@media screen and (min-width: 560px) {
+  #section--1 {
+    padding-bottom: 450px;
+  }
+}
+
+@media screen and (min-width: 680px) {
+  #section--1 {
+    padding-bottom: 550px;
+  }
+}
+
 @media screen and (min-width: 767px) {
   .header__title h1{
     margin-top: 80px;
@@ -945,9 +963,7 @@ h4 {
   .features__img {
     margin-top: 80px im !important;
     padding-bottom: 20px;
-}
-  
-
+  }
 }
 
 @media screen and (min-width: 1024px) {
